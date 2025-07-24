@@ -59,7 +59,7 @@ CREATE TABLE `student` (
   `password` varchar(255) NOT NULL,
   `name` varchar(45) NOT NULL,
   `dob` date NOT NULL,
-  `grade` varchar(2) NOT NULL,
+  `grade` varchar(5) NOT NULL,
   `email` varchar(255) NOT NULL,
   `address` varchar(255) NOT NULL,
   `contact` varchar(10) NOT NULL,
@@ -119,4 +119,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-24 21:39:43
+-- Dump completed on 2025-07-24 21:43:51
